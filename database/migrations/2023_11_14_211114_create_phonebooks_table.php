@@ -18,10 +18,6 @@ return new class extends Migration
             $table->string('address');
             $table->string('correspondence_address')->nullable();
             $table->timestamps();
-
-            //$table->foreign('email_id')->references('id')->on('mails')->onDelete('cascade');
-            //$table->foreign('phonenumber_id')->references('id')->on('phonenumbers')->onDelete('cascade');
-
         });
     }
 
