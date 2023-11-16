@@ -12,8 +12,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        //$this->call(PhonebookSeeder::class);
-        //$this->call(MailSeeder::class);
+        $this->call(PhonebookSeeder::class);
+        $this->call(MailSeeder::class);
         $this->call(PhoneNumberSeeder::class);
     }
 }
